@@ -1,55 +1,44 @@
 [
     {
-    	"caption": "Visionaire Poster",
-    	"src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Visionaire.jpg"
+    	"caption": "Central Park",
+    	"src": "https://nypost.com/wp-content/uploads/sites/2/2019/12/robberies-serious-crimes-spike-in-central-park-this-year.jpg?quality=80&strip=all"
   	},
     {
-    	"caption": "Wolf Kings Poster",
-    	"src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Wolf-Kings.jpg"
+    	"caption": "Brooklyn Bridge",
+    	"src": "https://untappedcities.com/wp-content/uploads/2017/05/Brooklyn-Bridge-from-Empire-Stores-Dumbo-NYC.jpg"
   	},
     {
-      "caption": "PSA Poster",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/psa-poster.jpg"
+      "caption": "Kobe Bryant",
+      "src": "https://www.sideshow.com/storage/product-images/501103UL/the-final-bow_michael-muller_feature.jpg"
     },
     {
-      "caption": "Intergalactic Doorway",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/red-door.jpg"
+      "caption": "Wall Street Bull",
+      "src": "https://content.fortune.com/wp-content/uploads/2019/11/GettyImages-660179780.jpg"
     },
     {
-      "caption": "Species: Unknown",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/goat.jpg"
+      "caption": "The Tree",
+      "src": "https://images.fineartamerica.com/images-medium-large-5/abstract-tree-painting--life-giver-amy-giacomelli.jpg"
     },
     {
-      "caption": "Seudo Productions",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/seudo-productions-long.jpg"
+      "caption": "Christmas Tree",
+      "src": "https://untappedcities.com/wp-content/uploads/2020/12/2020-Rockefeller-Center-Tree-Lighting-Ceremony-Tishman-Speyer-NYC-010.jpg"
     },
     {
-      "caption": "EXO Studios",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/exo-studios.jpg"
+      "caption": "The Vessel",
+      "src": "https://media2.s-nbcnews.com/i/newscms/2019_11/2787796/190315-hudson-yards-opening-confetti-ew-101p_8688af940905eda71c5ba238d06ca8fd.jpg"
     },
   
     {
-    	"caption": "Sunrise Airlines",
-    	"src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/sunrise-airlines.jpg"
+    	"caption": "Columbus Circle",
+    	"src": "https://st2.depositphotos.com/3258971/9102/i/950/depositphotos_91021636-stock-photo-the-trump-tower-and-globe.jpg"
   	},
     {
-    	"caption": "Medieval Poker Club",
-    	"src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/medieval-poker-club.jpg"
+    	"caption": "Times Square",
+    	"src": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2020%2F05%2F27%2Ftimes-square-billboards-going-dark-FT-BLOG0520.jpg"
   	},
     {
-      "caption": "Tweet Inc.",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/tweet-inc.jpg"
-    },
-    {
-      "caption": "Sunset",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Symmetrical Design.jpg"
-    },
-    {
-      "caption": "",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Business Cards.jpg"
-    },
-    {
-      "caption": "",
-      "src": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Inspirational Quote Design.jpg"
+      "caption": "Cartier Store",
+      "src": "https://untappedcities.com/wp-content/uploads/2020/06/Fifth-Avenue-Before-After-Holiday-2019-Coronavirus-Pandemic-and-George-Floyd-Demonstrations-Protests-Stores-Boarded-Up-2020-NYC-Cartier-Before.jpg"
     }
+
 ]
