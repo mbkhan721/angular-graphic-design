@@ -42,6 +42,7 @@ import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-light
 import { FooterComponent } from './graphic-design/footer/footer.component';
 import { ArtComponent } from './art/art.component';
 
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -73,7 +74,7 @@ import { ArtComponent } from './art/art.component';
     GraphicDesignComponent,
     PortfolioLightboxComponent,
     FooterComponent,
-    ArtComponent
+    ArtComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
