@@ -2,10 +2,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  margin-left: 25px;
 }
 
 header {
   padding: 20px 0;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 header .row,
