@@ -35,14 +35,22 @@ header p {
   background-image: url('https://i.pinimg.com/originals/90/7b/18/907b18cffbe0409cc15b577c87ab886e.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 700px;
+  height: 670px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+
 }
 
 .jumbotron h2 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
-  margin: 0;
+  margin-top: 130px;
+  margin-left: 80px;
   color: #fff;
 }
 
@@ -62,27 +70,27 @@ section .row img {
 
 .btn.btn-primary {
   border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
+  border: 10px;
+  color: #509aee;
   text-shadow: none;
-  background-color: #ffffff;
+  background-color: #e5eaec;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #fbd1d5;
+  background-color: #81b388;
 }
 
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #afa9a9;
-  margin: 0 0 30px;
-}
+
 
 footer {
   font-size: 12px;
   padding: 20px 0;
   color: lightblue;
+  background-color: rgb(221, 216, 217);
+  width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 footer .col-sm-8 {
@@ -98,3 +106,4 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
