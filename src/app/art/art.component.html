@@ -1,69 +1,162 @@
-<!-- This is the header -->
-<div>
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 
-  <title>New York City</title>
-  <meta charset="utf-8"/>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <header class="container">
-  <div class="row">
-    <h1 class="col-sm-4">MegaCity</h1>
-    <nav class="col-sm-8 text-right">
-      <p>newest</p>
-      <p>catalogue</p>
-      <p>contact</p>
-    </nav>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
   </div>
-  </header>
-  <section class="jumbotron">
-    <div class="container">
-      <div class="row text-center">
-      <h2>Architecture & Design</h2>
-      <h3>This Year's Best</h3>
-      <a class="btn btn-primary" href="#"
-      role="button">See all</a>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="https://i.pinimg.com/originals/90/7b/18/907b18cffbe0409cc15b577c87ab886e.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="https://i1.wp.com/ladobny.com/wp-content/uploads/2018/02/7-train.jpg?fit=750%2C555&ssl=1" alt="House" style="width:100%">
       </div>
     </div>
- </section>
-
-</div>
-<!-- Header ends -->
-
-
-      <div class="grid-x grid-margin-x">
-        <div class="medium-8 cell">
-          <p><img src="https://www.creativefabrica.com/wp-content/uploads/2020/09/03/Islamic-art-beige-background-Graphics-5264659-1-1-580x386.jpg" alt="main article image"></p>
-        </div>
-        <div class="medium-4 cell">
-          <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDzlhw7LS-3e2am6f0gPIuy2kVI9MHdCxnoA&usqp=CAU" alt="article promo image" alt="advertisement for deep fried Twinkies"></p>
-          <p><img src="https://previews.123rf.com/images/azat1976/azat19761709/azat1976170900003/85202568-morocco-disintegration-template-islamic-mosaic-design-abstract-background-business-card-invitation-.jpg" alt="article promo image"></p>
-        </div>
-
-
-
-
-
-<app-portfolio-lightbox portfolioURL = '/assets/art.json'></app-portfolio-lightbox>
-
-
-
-<footer class="container">
-  <div class="row">
-    <p class="col-sm-4">&copy; 2020 ET710</p>
-    <ul class="col-sm-8">
-     <li class="col-sm-1">
-       <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
-</li>
-     
-     <li class="col-sm-1">
-       <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
-     </li>
-     <li class="col-sm-1">
-       <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
-     </li>
-     <li class="col-sm-1">
-       <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"/>
-     </li>
-    </ul>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="https://adventure.com/wp-content/uploads/2017/06/Various-Cantonese-dim-sum-in-Flushing-photo-credit-Erik-Trinidad.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="https://onthegrid.city/imager/s3_amazonaws_com/onthegrid.city/assets/grid/queens/flushing/flushing-library/qnsmade-onthegrid-flushing-flushing-library-0002_299006722e285f47655d17d1c9136337.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Historical Buildings</div>
+        <img src="https://turnstiletours.com/wp-content/uploads/2020/04/5-5-Bowne_House_Furnishings-2019-05-26-Debbie_Eynon_Finley-Additional-0226.jpeg" alt="House" style="width:100%">
+      </div>
+    </div>
   </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Sky View Mall</div>
+        <img src="https://ds4.cityrealty.com/img/3944853d88603206e1abfcd917ecfa44189a28f0+w+h+0+60/sky-view-parc-tower-1-40-26-college-point-boulevard-01.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="https://media.timeout.com/images/100432609/630/472/image.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/VIEW_OF_UNISPHERE_FROM_SKYLINE_TOWER%2CFLUSHING%2CQUEENS%2CNY_-_panoramio.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Main Street</div>
+        <img src="https://queenspost.com/wp-content/uploads/2020/09/DOT.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <h3>John Doe</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <h3>Jane Doe</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+      <h3>Mike Ross</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+ 
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/citi17951.jpg" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
+
+</body>
+</html>
