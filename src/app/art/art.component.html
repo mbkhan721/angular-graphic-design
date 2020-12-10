@@ -1,24 +1,14 @@
-
-
-
 <!-- This is the header -->
-
-<!-- Header ends -->
-
-
-
-
-
 <div>
-<head>
+
   <title>New York City</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-<header class="container">
+
+
+ <header class="container">
   <div class="row">
     <h1 class="col-sm-4">MegaCity</h1>
     <nav class="col-sm-8 text-right">
@@ -39,32 +29,26 @@
     </div>
  </section>
 
- <section class="container">
-   <div class="row">
-     
-     <figure class="col-sm-6">
-     <p>kitchen</p>
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmwnxYZPRzpYtPEFubTw6mNOJ6dG1kJM7dFA&usqp=CAU"/>
-     </figure>
+</div>
+<!-- Header ends -->
 
-     <figure class="col-sm-6">
-      <p>woodwork</p>
-      <img src="https://www.creativefabrica.com/wp-content/uploads/2020/09/03/Islamic-art-beige-background-Graphics-5264659-1-1-580x386.jpg"/>
-      </figure>
-     
-   </div>
-     <div class="row">
-      <figure class="col-sm-6">
-     <p>gifts</p>
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDzlhw7LS-3e2am6f0gPIuy2kVI9MHdCxnoA&usqp=CAU"/>
-     </figure>
 
-     <figure class="col-sm-6">
-      <p>antiques</p>
-      <img src="https://previews.123rf.com/images/azat1976/azat19761709/azat1976170900003/85202568-morocco-disintegration-template-islamic-mosaic-design-abstract-background-business-card-invitation-.jpg"/>
-      </figure>
-    </div>
-  </section>
+      <div class="grid-x grid-margin-x">
+        <div class="medium-8 cell">
+          <p><img src="https://www.creativefabrica.com/wp-content/uploads/2020/09/03/Islamic-art-beige-background-Graphics-5264659-1-1-580x386.jpg" alt="main article image"></p>
+        </div>
+        <div class="medium-4 cell">
+          <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDzlhw7LS-3e2am6f0gPIuy2kVI9MHdCxnoA&usqp=CAU" alt="article promo image" alt="advertisement for deep fried Twinkies"></p>
+          <p><img src="https://previews.123rf.com/images/azat1976/azat19761709/azat1976170900003/85202568-morocco-disintegration-template-islamic-mosaic-design-abstract-background-business-card-invitation-.jpg" alt="article promo image"></p>
+        </div>
+
+
+
+
+
+<app-portfolio-lightbox portfolioURL = '/assets/art.json'></app-portfolio-lightbox>
+
+
 
 <footer class="container">
   <div class="row">
@@ -86,9 +70,3 @@
     </ul>
   </div>
 </footer>
-
-</body>
-</div>
-
-<app-portfolio-lightbox portfolioURL = '/assets/art.json'></app-portfolio-lightbox>
-
