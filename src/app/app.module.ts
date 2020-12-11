@@ -42,6 +42,7 @@ import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-light
 import { FooterComponent } from './graphic-design/footer/footer.component';
 import { ArtComponent } from './art/art.component';
 import { FlushingDetailsComponent } from './flushing-details/flushing-details.component';
+import { FlushingDetailsTwoComponent } from './flushing-details-two/flushing-details-two.component';
 
 
 @NgModule({
@@ -62,6 +63,7 @@ import { FlushingDetailsComponent } from './flushing-details/flushing-details.co
       { path: 'graphic', component: GraphicDesignComponent },
       { path: 'art', component: ArtComponent },
       { path: 'details', component: FlushingDetailsComponent },
+      { path: 'two', component: FlushingDetailsTwoComponent },
     ])
   ],
   declarations: [
@@ -78,6 +80,7 @@ import { FlushingDetailsComponent } from './flushing-details/flushing-details.co
     FooterComponent,
     ArtComponent,
     FlushingDetailsComponent,
+    FlushingDetailsTwoComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
