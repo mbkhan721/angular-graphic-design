@@ -17,7 +17,7 @@ export const products = [
 ];
 
 export const r1 = {
-  
+
     "image": {
     "city": "https://i.pinimg.com/originals/90/7b/18/907b18cffbe0409cc15b577c87ab886e.jpg",
 
@@ -59,6 +59,26 @@ export const r1 = {
     "hotelDetails": "Enjoy a variety of features during your stay at Hyatt Place Flushing / LaGuardia Airport, including free shuttle service to and from the LaGuardia airport.",
 
   },
+
+  "garden": {
+
+    "g1": "https://i.pinimg.com/originals/24/32/0f/24320fa3871fdac06c148aee9cfa4cde.jpg",
+
+    "g2":"https://www.urbanadvantagenyc.org/wp-content/uploads/2017/11/QBG-Pic6.png",
+
+    "g3":"https://images.glaciermedia.ca/polopoly_fs/1.1017800.1398988993!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_804/web-0503-pathway-jpg.jpg",
+
+    "g4":"https://ih1.redbubble.net/image.554206901.9742/flat,1000x1000,075,f.u7.jpg",
+
+    "g5":"https://images.nycgo.com/image/fetch/q_70,w_900/https://www.nycgo.com/images/uploads/articles/Flushing_food_guide/Queens-Night-Market-flushong-queens-nyc_MG_4488.jpg",
+
+    "g6":"https://images.nycgo.com/image/fetch/q_70,w_900/https://www.nycgo.com/images/uploads/articles/Flushing_food_guide/asian-jewels-seafood-restaurant-flushong-queens-nyc-julienneschaer_004.jpg",
+
+    "g7":"http://www.queensbuzz.com/files/image/article/thumb_415.jpg",
+
+    "g8":"http://www.queensbuzz.com/files/image/article/thumb_894.jpg",
+
+ },
 
 }
 
