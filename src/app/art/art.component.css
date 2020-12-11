@@ -118,6 +118,7 @@ nav {
 /* Opacity of feedback container over image */
 .container {
   position: relative;
+  display: flex;
 }
 
 
