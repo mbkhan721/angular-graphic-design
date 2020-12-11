@@ -95,6 +95,42 @@ export const r1 = {
 
 }
 
+export const r2 = {
+  "hotel": {
+
+  "hotel1":"https://media-cdn.tripadvisor.com/media/photo-s/1b/36/8e/02/exterior.jpg",
+
+  "hotel2":"https://media-cdn.tripadvisor.com/media/photo-s/13/6d/75/f2/ramada-flushing-queens.jpg",
+
+  "hotel3":"https://media-cdn.tripadvisor.com/media/photo-s/1b/65/e4/60/exterior.jpg",
+  
+  "hotel4":"https://media.timeout.com/images/103749568/630/472/image.jpg",
+
+
+  "hyatt":"Our brand new, ultramodern 168 room Hyatt Place Flushing/LaGuardia Airport hotel is built atop three-glass levels of world class retail shopping, a variety of ethnic and American restaurants, a separate office condominium tower and 43 luxury furnished residential condominiums. Exclusively accessible only to hotel guests, the hotel also features an expansive roof-top outdoor garden and restaurant & lounge with spectacular panoramic views of the Manhattan skyline.",
+
+  "ramada":"Ramada by Wyndham Flushing Queens is an excellent choice for travelers visiting Flushing, offering a family-friendly environment alongside many helpful amenities designed to enhance your stay.",
+
+  "sheraton":"Enjoy a warm welcome at beautiful Sheraton LaGuardia East Hotel. Located in Flushing, New York, our Chinatown Queens hotel is just 3 miles away from the LaGuardia airport, accessible by our complimentary shuttle.",
+
+  "parc":"Experience culture, style, and sophistication at our hotel in Flushing, NY. Thoughtfully situated near Citi Field, USTA, and downtown Flushing. Modern comfort and affordability await with stunning NYC skyline views, complimentary buffet breakfast, free wifi, and two onsite restaurants. Ascend to our rooftop bar for sweeping views of LaGuardia Airport, Citi Field, and the Manhattan skyline. Walking distance to both the Long Island Railroad and famed number 7 train.",
+
+
+  "map":"https://static01.nyt.com/packages/images/newsgraphics/2011/0123-nyc-ethnic-neighborhoods-map/nyt-2010-nyc-mosaic-map.png",
+
+
+  "mapDescription":"Flushing contains numerous residential subsections, and its diversity is reflected by the numerous ethnic groups that reside there. Flushing is served by several stations on the Long Island Rail Road's Port Washington Branch, as well as the New York City Subway's IRT Flushing Line 7 and 7 trains, which has its terminus at Main Street.Flushing is located in Queens Community District 7, and its ZIP Codes are 11354, 11355, and 11358. It is patrolled by the New York City Police Department's 109th Precinct.",
+
+
+  "details":"During the 19th century, as New York City continued to grow in population and economic vitality, so did Flushing. Its proximity to Manhattan was critical in its transformation into a fashionable residential area. In 1837, the Village of Flushing was incorporated within the Town of Flushing. The Village of Flushing, surrounded by nondescript flowers. No other emblem or flag is known to have been used."
+
+
+
+
+  }
+}
+
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

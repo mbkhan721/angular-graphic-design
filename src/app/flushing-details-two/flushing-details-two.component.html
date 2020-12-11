@@ -1,0 +1,90 @@
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-card w3-margin-bottom" style="width:100%;min-width:400px;margin-left:-16px">
+	<div class="w3-bar w3-white w3-wide w3-card w3-padding-16">
+		<a routerLink="/art" class="w3-bar-item w3-button">Return</a>
+		<!-- Float links to the right. Hide them on small screens -->
+		<div class="w3-right w3-hide-small">
+			<a routerLink="/cart" class="w3-bar-item w3-button">Cart</a>
+			<a href="https://angular-graphic-design.stackblitz.io/" class="w3-bar-item w3-button">My Store</a>
+			<a routerLink="/graphic" class="w3-bar-item w3-button">Graphic Design</a>
+		</div>
+	</div>
+</div>
+<div class="w3-center w3-padding-16" style="font-family:karma;font-size:30px">Hotels</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px">
+
+	<!-- First Photo Grid / JSON import -->
+	<div class="w3-row-padding w3-padding-16 w3-center" id="food">
+		<div class="w3-quarter">
+			<img src="{{info.hotel1}}" alt="Botanical Garden" style="width:100%">
+			<h3>Hyatt Place</h3>
+			<p>{{info.hyatt}}</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="{{info.hotel2}}" alt="Botanical Garden" style="width:100%">
+			<h3>Ramada by Wyndham</h3>
+			<p>{{info.ramada}}</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="{{info.hotel3}}" alt="Botanical Garden" style="width:100%">
+			<h3>Sheraton LaGuardia East</h3>
+			<p>{{info.sheraton}}</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="{{info.hotel4}}" alt="Botanical Garden" style="width:100%">
+			<h3>The Parc Hotel</h3>
+			<p>{{info.parc}}</p>
+		</div>
+	</div>
+
+	<!-- Second Photo Grid / JSON imported -->
+	<div class="w3-center w3-padding-16" style="font-family:karma;font-size:30px">Flushing on the Map</div>
+	<div class="w3-row-padding w3-padding-16 w3-center">
+	
+			<img src="{{info.map}}" alt="restaurant1" style="width:100%">
+			<p>{{info.mapDescription}}</p>
+		</div>
+	</div>
+
+	<!-- Pagination -->
+	<div class="w3-center w3-padding-32">
+		<div class="w3-bar">
+			<a routerLink="/art" class="w3-bar-item w3-button w3-hover-grey">«</a>
+			<a routerLink="/details" class="w3-bar-item w3-button w3-hover-grey">1</a>
+			<a routerLink="/two" class="w3-bar-item w3-button w3-grey">2</a>
+		</div>
+	</div>
+
+
+
+	<!-- Footer -->
+	<footer class="w3-row-padding w3-padding-32">
+		<div class="w3-third">
+			<h3>DID YOU KNOW?</h3>
+			<p>{{info.details}}</p>
+		</div>
+
+		<div class="w3-third w3-right w3-serif">
+			<h3>POPULAR TAGS</h3>
+			<p>
+				<span class="w3-tag w3-black w3-margin-bottom">Travel</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flushing</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Hotel</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Lodge</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Motel</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sushi</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Queens</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Q60 Bus</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Maps</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">7 Train</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">LaGuardia Airport</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">MTA</span>
+				<span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Subway</span>
+			</p>
+		</div>
+	</footer>
+
+	<!-- End page content -->

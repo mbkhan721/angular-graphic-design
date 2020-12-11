@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core' ;
-import { r1 } from '../products';
+import { r2 } from '../products';
 
 @Component({
   selector: 'app-flushing-details-two',
@@ -8,6 +8,9 @@ import { r1 } from '../products';
   styleUrls: ['./flushing-details-two.component.css']
 })
 export class FlushingDetailsTwoComponent implements OnInit {
+
+  info = r2.hotel;
+  @Input() hotel;
 
   constructor() { }
 
