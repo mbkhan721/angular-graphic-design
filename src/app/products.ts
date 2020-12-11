@@ -45,7 +45,10 @@ export const r1 = {
     "hotel":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1547/NYCZF-P002-Exterior-Street.jpg/NYCZF-P002-Exterior-Street.16x9.jpg",
 
     
-    "citifield": "https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/citi17951.jpg"
+    "citifield": "https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/citi17951.jpg",
+
+    "about": "Multicultural Flushing is home to the city’s largest Chinatown, with bustling sidewalks, a tumult of shops, and eateries serving soup dumplings to Taiwanese pancakes. Korean and Indian cultures are well represented too. Built in 1862, Flushing Town Hall now hosts jazz concerts, and several historic homes date to the 17th and 18th centuries. The Queens Botanical Garden is a 39-acre oasis with a focus on native plants.",
+
   },
 
 }
