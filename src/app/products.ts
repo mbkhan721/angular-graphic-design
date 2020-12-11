@@ -78,6 +78,19 @@ export const r1 = {
 
     "restaurant4":"http://www.queensbuzz.com/files/image/article/thumb_894.jpg",
 
+
+
+    "paragraph1": "A string of Korean restaurants line Flushing’s Northern Boulevard and its surrounding blocks. Slightly off the main drag is Mapo, a tidy corner spot set up for group dining. For tableside grilling, it’s hard to do better; the kalbi and pork belly get highest marks.",
+
+    "paragraph2":"Find a lively dim sum banquet hall with all the traditional trays flying around, and feast on har gow (shrimp dumplings), steamed pork buns, rice noodle rolls and custard tarts.",
+
+    "paragraph3":"You might want to take this review with you next time you head into Flushing, because everyone of these dishes was a hit.",
+
+    "paragraph4":"A sort of modern eclectic restaurant that borrows the best from the panoply of cuisines around the world.",
+
+    "paragraph5":"In 1664, the English took control of New Amsterdam, ending Dutch control of the New Netherland colony, and renamed it the Province of New York. When Queens County was established in 1683, the Town of Flushing was one of the original five towns which comprised the county."
+
+
  },
 
 }
