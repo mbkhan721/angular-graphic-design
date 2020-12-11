@@ -33,7 +33,7 @@ export const r1 = {
     "globe": "https://media.timeout.com/images/100432609/630/472/image.jpg",
 
     "park":"https://upload.wikimedia.org/wikipedia/commons/a/ad/VIEW_OF_UNISPHERE_FROM_SKYLINE_TOWER%2CFLUSHING%2CQUEENS%2CNY_-_panoramio.jpg",
-    
+
     "main": "https://queenspost.com/wp-content/uploads/2020/09/DOT.jpg",
 
     "garden": "https://queensbotanical.org/wp-content/uploads/2018/02/Tuliptime2.png",
@@ -43,6 +43,9 @@ export const r1 = {
     "dinner": "https://cdn.vox-cdn.com/thumbor/EkEiwTf1IA8q7q1Y_ZviZ9NBDYI=/0x0:2048x1360/2220x1665/filters:focal(861x517:1187x843):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/63100521/FlushingMapLittleLamb.0.jpg",
 
     "hotel":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1547/NYCZF-P002-Exterior-Street.jpg/NYCZF-P002-Exterior-Street.16x9.jpg",
+
+    
+    "citifield": "https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/citi17951.jpg"
   },
 
 }
