@@ -41,6 +41,7 @@ import { GraphicDesignComponent } from './graphic-design/graphic-design.componen
 import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-lightbox.component';
 import { FooterComponent } from './graphic-design/footer/footer.component';
 import { ArtComponent } from './art/art.component';
+import { FlushingDetailsComponent } from './flushing-details/flushing-details.component';
 
 
 @NgModule({
@@ -60,6 +61,7 @@ import { ArtComponent } from './art/art.component';
       { path: 'shipping', component: ShippingComponent },
       { path: 'graphic', component: GraphicDesignComponent },
       { path: 'art', component: ArtComponent },
+      { path: 'details', component: FlushingDetailsComponent },
     ])
   ],
   declarations: [
@@ -75,6 +77,7 @@ import { ArtComponent } from './art/art.component';
     PortfolioLightboxComponent,
     FooterComponent,
     ArtComponent,
+    FlushingDetailsComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
