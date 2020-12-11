@@ -37,7 +37,7 @@ export const r1 = {
 
     "main": "https://queenspost.com/wp-content/uploads/2020/09/DOT.jpg",
 
-    "garden": "https://queensbotanical.org/wp-content/uploads/2018/02/Tuliptime2.png",
+    "garden": "https://queensbotanical.org/wp-content/uploads/2018/02/Tuliptime3.png",
 
     "map": "https://comicvine1.cbsistatic.com/uploads/scale_medium/0/4378/5794709-flushing-ny-map.jpg",
 
