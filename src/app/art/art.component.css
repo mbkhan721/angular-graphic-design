@@ -113,3 +113,25 @@ footer li img {
 nav {
   margin-left: 30px;
 }
+
+
+/* Opacity of feedback container over image */
+.container {
+  position: relative;
+}
+
+
+.container .content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+
+}
