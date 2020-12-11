@@ -10,6 +10,7 @@ import { r1 } from '../products';
 export class ArtComponent implements OnInit {
 
   profile = r1.image;
+  @Input() image;
 
   constructor() { }
 
