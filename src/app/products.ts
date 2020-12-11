@@ -49,6 +49,14 @@ export const r1 = {
 
     "about": "Multicultural Flushing is home to the city’s largest Chinatown, with bustling sidewalks, a tumult of shops, and eateries serving soup dumplings to Taiwanese pancakes. Korean and Indian cultures are well represented too. Built in 1862, Flushing Town Hall now hosts jazz concerts, and several historic homes date to the 17th and 18th centuries. The Queens Botanical Garden is a 39-acre oasis with a focus on native plants.",
 
+    "gardenDetails": "Queens Botanical Garden is a botanical garden located at 43-50 Main Street in Flushing, Queens, New York City. The 39-acre site features rose, bee, herb, wedding, and perennial gardens; an arboretum; an art gallery; and a LEED-certified Visitor & Administration Building.",
+
+    "mapDetails": "Flushing is located in the heart of Queens. It accessible from the LIE, Grand Central pkwy, Van Wyck expwy and Corss Island Parkway.",
+
+    "dinnerDetails": "Little Sheep Mongolian Hot Pot is a restaurant with a purpose. That purpose is to introduce all the of the great culinary traditions and flavors of Mongolia to the people of North America. Little Sheep creates an authentic experience for diners.",
+
+    "hotelDetails": "Enjoy a variety of features during your stay at Hyatt Place Flushing / LaGuardia Airport, including free shuttle service to and from the LaGuardia airport.",
+
   },
 
 }
