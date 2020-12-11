@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core' ;
+import { r1 } from '../products';
 
 @Component({
   selector: 'app-art',
@@ -7,6 +8,8 @@ import { Input } from '@angular/core' ;
   styleUrls: ['./art.component.css']
 })
 export class ArtComponent implements OnInit {
+
+  profile = r1.image;
 
   constructor() { }
 

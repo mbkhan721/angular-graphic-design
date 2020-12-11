@@ -20,8 +20,7 @@ export const r1 = {
   "image": {
     "city": "NYC",
     "src": "https://i.pinimg.com/originals/90/7b/18/907b18cffbe0409cc15b577c87ab886e.jpg",
-    "train": "7 Train",
-    "https://i1.wp.com/ladobny.com/wp-content/uploads/2018/02/7-train.jpg?fit=750%2C555&ssl=1",
+    "train":"https://i1.wp.com/ladobny.com/wp-content/uploads/2018/02/7-train.jpg?fit=750%2C555&ssl=1",
   },
 
 }
