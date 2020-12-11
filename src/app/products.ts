@@ -70,13 +70,13 @@ export const r1 = {
 
     "g4":"https://ih1.redbubble.net/image.554206901.9742/flat,1000x1000,075,f.u7.jpg",
 
-    "g5":"https://images.nycgo.com/image/fetch/q_70,w_900/https://www.nycgo.com/images/uploads/articles/Flushing_food_guide/Queens-Night-Market-flushong-queens-nyc_MG_4488.jpg",
+    "restaurant1":"https://images.nycgo.com/image/fetch/q_70,w_900/https://www.nycgo.com/images/uploads/articles/Flushing_food_guide/Queens-Night-Market-flushong-queens-nyc_MG_4488.jpg",
 
-    "g6":"https://images.nycgo.com/image/fetch/q_70,w_900/https://www.nycgo.com/images/uploads/articles/Flushing_food_guide/asian-jewels-seafood-restaurant-flushong-queens-nyc-julienneschaer_004.jpg",
+    "restaurant2":"https://images.nycgo.com/image/fetch/q_70,w_900/https://www.nycgo.com/images/uploads/articles/Flushing_food_guide/asian-jewels-seafood-restaurant-flushong-queens-nyc-julienneschaer_004.jpg",
 
-    "g7":"http://www.queensbuzz.com/files/image/article/thumb_415.jpg",
+    "restaurant3":"http://www.queensbuzz.com/files/image/article/thumb_415.jpg",
 
-    "g8":"http://www.queensbuzz.com/files/image/article/thumb_894.jpg",
+    "restaurant4":"http://www.queensbuzz.com/files/image/article/thumb_894.jpg",
 
  },
 

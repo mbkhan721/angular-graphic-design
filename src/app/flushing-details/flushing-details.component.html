@@ -1,7 +1,7 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top w3-card w3-margin-bottom" style="width:100%;min-width:400px;margin-left:-16px">
   <div class="w3-bar w3-white w3-wide w3-card w3-padding-16">
-    <a routerLink="/art" class="w3-bar-item w3-button">Main page</a>
+    <a routerLink="/art" class="w3-bar-item w3-button">Return</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a routerLink="/cart" class="w3-bar-item w3-button">Cart</a>
@@ -15,50 +15,50 @@
 <!-- !PAGE CONTENT! -->
 <div class="w3-main w3-content w3-padding" style="max-width:1200px">
 
-  <!-- First Photo Grid-->
+  <!-- First Photo Grid / JSON import -->
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
     <div class="w3-quarter">
-      <img src="https://i.pinimg.com/originals/24/32/0f/24320fa3871fdac06c148aee9cfa4cde.jpg" alt="Sandwich" style="width:100%">
+      <img src="{{queens.g1}}" alt="Botanical Garden" style="width:100%">
       <h3>Photo Shoot</h3>
       <p>This is a prefect place for a photo shoot; whether it's a wedding or a birthday.</p>
     </div>
     <div class="w3-quarter">
-      <img src="https://www.urbanadvantagenyc.org/wp-content/uploads/2017/11/QBG-Pic6.png" alt="Steak" style="width:100%">
+      <img src="{{queens.g2}}" alt="Botanical Garden" style="width:100%">
       <h3>Lots of Flowers</h3>
       <p>Spring is the best time to visit for a field full or flowers.</p>
     </div>
     <div class="w3-quarter">
-      <img src="https://images.glaciermedia.ca/polopoly_fs/1.1017800.1398988993!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_804/web-0503-pathway-jpg.jpg" alt="Cherries" style="width:100%">
+      <img src="{{queens.g3}}" alt="Botanical Garden" style="width:100%">
       <h3>Just a Walk</h3>
       <p>There is no better place in Queens for a nice walk!</p>
     </div>
     <div class="w3-quarter">
-      <img src="https://ih1.redbubble.net/image.554206901.9742/flat,1000x1000,075,f.u7.jpg" alt="Pasta and Wine" style="width:100%">
+      <img src="{{queens.g4}}" alt="Botanical Garden" style="width:100%">
       <h3>Special Messages</h3>
       <p>There are occasional messages that will surprise you.</p>
     </div>
   </div>
   
-  <!-- Second Photo Grid-->
+  <!-- Second Photo Grid / JSON imported -->
   <div class="w3-center w3-padding-16" style="font-family:karma;font-size:30px">Restaurants</div>
   <div class="w3-row-padding w3-padding-16 w3-center">
     <div class="w3-quarter">
-      <img src="https://images.nycgo.com/image/fetch/q_70,w_900/https://www.nycgo.com/images/uploads/articles/Flushing_food_guide/Queens-Night-Market-flushong-queens-nyc_MG_4488.jpg" alt="Popsicle" style="width:100%">
+      <img src="{{queens.restaurant1}}" alt="restaurant1" style="width:100%">
       <h3>Mapo Korean B.B.Q.</h3>
       <p>A string of Korean restaurants line Flushing’s Northern Boulevard and its surrounding blocks. Slightly off the main drag is Mapo, a tidy corner spot set up for group dining. For tableside grilling, it’s hard to do better; the kalbi and pork belly get highest marks.</p>
     </div>
     <div class="w3-quarter">
-      <img src="https://images.nycgo.com/image/fetch/q_70,w_900/https://www.nycgo.com/images/uploads/articles/Flushing_food_guide/asian-jewels-seafood-restaurant-flushong-queens-nyc-julienneschaer_004.jpg" alt="Salmon" style="width:100%">
+      <img src="{{queens.restaurant2}}" alt="Salmon" style="width:100%">
       <h3>Little Sheep Mongolian Hot Pot</h3>
       <p> Find a lively dim sum banquet hall with all the traditional trays flying around, and feast on har gow (shrimp dumplings), steamed pork buns, rice noodle rolls and custard tarts.</p>
     </div>
     <div class="w3-quarter">
-      <img src="http://www.queensbuzz.com/files/image/article/thumb_415.jpg" alt="Sandwich" style="width:100%">
+      <img src="{{queens.restaurant3}}" alt="Sandwich" style="width:100%">
       <h3>Joe's Shanghai Restaurant</h3>
       <p> You might want to take this review with you next time you head into Flushing, because everyone of these dishes was a hit.</p>
     </div>
     <div class="w3-quarter">
-      <img src="http://www.queensbuzz.com/files/image/article/thumb_894.jpg" alt="Croissant" style="width:100%">
+      <img src="{{queens.restaurant4}}" alt="Croissant" style="width:100%">
       <h3>Queens Taste 2012</h3>
       <p>A sort of modern eclectic restaurant that borrows the best from the panoply of cuisines around the world.</p>
     </div>
