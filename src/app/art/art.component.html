@@ -94,28 +94,28 @@
       <h3>Botanical Garden</h3>
       <p class="w3-opacity">Parks & Recreation</p>
       <p>{{profile.gardenDetails}}</p>
-      <a routerLink="/details" class="w3-block w3-light-grey w3-button">More Details</a>
+      <a [title]="'Click for more details about this park'" routerLink="/details" class="w3-block w3-light-grey w3-button">More Details</a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="{{profile.map}}" alt="Map" style="width:100%">
       <h3>Directions</h3>
       <p class="w3-opacity">Map</p>
       <p>{{profile.mapDetails}}</p>
-      <a routerLink="/two" class="w3-block w3-light-grey w3-button">More Details</a>
+      <a [title]="'Click for more details about this map'" routerLink="/two" class="w3-block w3-light-grey w3-button">More Details</a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="{{profile.dinner}}" alt="Dinner" style="width:100%">
       <h3>Restaurants</h3>
       <p class="w3-opacity">Food</p>
       <p>{{profile.dinnerDetails}}</p>
-      <a routerLink="/details" class="w3-block w3-light-grey w3-button">More Details</a>
+      <a [title]="'Click to find out about more restaurants'" routerLink="/details" class="w3-block w3-light-grey w3-button">More Details</a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="{{profile.hotel}}" alt="Hotel" style="width:100%">
       <h3>Hotels</h3>
       <p class="w3-opacity">Lodging</p>
       <p>{{profile.hotelDetails}}</p>
-      <a routerLink="/two" class="w3-block w3-light-grey w3-button">More Details</a>
+      <a [title]="'Click for more hotels in Flushing'" routerLink="/two" class="w3-block w3-light-grey w3-button">More Details</a>
     </div>
   </div>
 
@@ -131,7 +131,7 @@
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button (click)="share()">
+      <button [title]="'Click here to send a message'" (click)="share()">
     SEND MESSAGE
   </button>
 
