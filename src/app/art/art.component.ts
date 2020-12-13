@@ -9,6 +9,10 @@ import { r1 } from '../products';
 })
 export class ArtComponent implements OnInit {
 
+  share() {
+    window.alert('You will get a response shortly!');
+  }
+
   profile = r1.image;
   @Input() image;
 
