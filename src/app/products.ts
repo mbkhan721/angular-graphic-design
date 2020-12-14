@@ -16,8 +16,11 @@ export const products = [
   }
 ];
 
+
+/* Main page (Flushing, NY) data */
 export const r1 = {
 
+    /* Hero, NYC photo */
     "image": {
     "city": "https://i.pinimg.com/originals/90/7b/18/907b18cffbe0409cc15b577c87ab886e.jpg",
 
@@ -35,6 +38,7 @@ export const r1 = {
 
     "park":"https://upload.wikimedia.org/wikipedia/commons/a/ad/VIEW_OF_UNISPHERE_FROM_SKYLINE_TOWER%2CFLUSHING%2CQUEENS%2CNY_-_panoramio.jpg",
 
+    /* Main Street photo */
     "main": "https://queenspost.com/wp-content/uploads/2020/09/DOT.jpg",
 
     "garden": "https://queensbotanical.org/wp-content/uploads/2018/02/Tuliptime3.png",
@@ -46,11 +50,15 @@ export const r1 = {
     "hotel":"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2014/09/21/1547/NYCZF-P002-Exterior-Street.jpg/NYCZF-P002-Exterior-Street.16x9.jpg",
 
     
+    /* citifield */
     "citifield": "https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/citi17951.jpg",
 
+    /* About - Main page data */
     "about": "Multicultural Flushing is home to the city’s largest Chinatown, with bustling sidewalks, a tumult of shops, and eateries serving soup dumplings to Taiwanese pancakes. Korean and Indian cultures are well represented too. Built in 1862, Flushing Town Hall now hosts jazz concerts, and several historic homes date to the 17th and 18th centuries. The Queens Botanical Garden is a 39-acre oasis with a focus on native plants.",
 
+    /* Botanical Garden paragraph main page */
     "gardenDetails": "Queens Botanical Garden is a botanical garden located at 43-50 Main Street in Flushing, Queens, New York City. The 39-acre site features rose, bee, herb, wedding, and perennial gardens; an arboretum; an art gallery; and a LEED-certified Visitor & Administration Building.",
+
 
     "mapDetails": "Flushing is located in the heart of Queens. It accessible from the LIE, Grand Central pkwy, Van Wyck expwy and Corss Island Parkway.",
 
@@ -59,6 +67,8 @@ export const r1 = {
     "hotelDetails": "Enjoy a variety of features during your stay at Hyatt Place Flushing / LaGuardia Airport, including free shuttle service to and from the LaGuardia airport.",
 
   },
+
+  /* Botanical Garden and restaurants data */
 
   "garden": {
 
@@ -88,6 +98,7 @@ export const r1 = {
 
     "paragraph4":"A sort of modern eclectic restaurant that borrows the best from the panoply of cuisines around the world.",
 
+    /* Did you know? info  */
     "paragraph5":"In 1664, the English took control of New Amsterdam, ending Dutch control of the New Netherland colony, and renamed it the Province of New York. When Queens County was established in 1683, the Town of Flushing was one of the original five towns which comprised the county."
 
 
@@ -95,6 +106,8 @@ export const r1 = {
 
 }
 
+
+/* Hotels and map data on last page of pagination */
 export const r2 = {
   "hotel": {
 
