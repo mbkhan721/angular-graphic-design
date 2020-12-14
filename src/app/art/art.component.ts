@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core' ;
+
+/* Importing data from products.ts file */
 import { r1 } from '../products';
 
 @Component({
@@ -13,6 +15,7 @@ export class ArtComponent implements OnInit {
     window.alert('You will get a response shortly!');
   }
 
+  /* Importing data from products.ts file */
   profile = r1.image;
   @Input() image;
 
