@@ -11,6 +11,7 @@ import { r1 } from '../products';
 })
 export class ArtComponent implements OnInit {
 
+  /* Window alert when clicking submit button in flushing main page */
   share() {
     window.alert('You will get a response shortly!');
   }

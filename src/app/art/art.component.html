@@ -1,11 +1,14 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top w3-card w3-margin-bottom" style="width:100%;min-width:400px;margin-left:-16px">
   <div class="w3-bar w3-white w3-wide w3-card w3-padding-16">
+    <!-- Stays on the current page when clicked -->
     <a [title]="'This is the main page!'" routerLink="/art" class="w3-bar-item w3-button"><b>Flushing</b> New York</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
+      <!-- Routes to cart with link provided -->
       <a routerLink="/cart" class="w3-bar-item w3-button">Cart</a>
       <a href="https://angular-graphic-design.stackblitz.io/" class="w3-bar-item w3-button">My Store</a>
+      <!-- Routes back to graphic desing with path "/graphic" provided -->
       <a routerLink="/graphic" class="w3-bar-item w3-button">Graphic Design</a>
     </div>
   </div>
@@ -94,6 +97,8 @@
       <h3>Botanical Garden</h3>
       <p class="w3-opacity">Parks & Recreation</p>
       <p>{{profile.gardenDetails}}</p>
+
+      <!-- Redirecting to another page + details on hover -->
       <a [title]="'Click for more details about this park'" routerLink="/details" class="w3-block w3-light-grey w3-button">More Details</a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -101,6 +106,7 @@
       <h3>Directions</h3>
       <p class="w3-opacity">Map</p>
       <p>{{profile.mapDetails}}</p>
+      <!-- Redirecting to another page + details on hover -->
       <a [title]="'Click for more details about this map'" routerLink="/two" class="w3-block w3-light-grey w3-button">More Details</a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -108,6 +114,7 @@
       <h3>Restaurants</h3>
       <p class="w3-opacity">Food</p>
       <p>{{profile.dinnerDetails}}</p>
+      <!-- Redirecting to another page path (/details) + details on hover -->
       <a [title]="'Click to find out about more restaurants'" routerLink="/details" class="w3-block w3-light-grey w3-button">More Details</a>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -115,6 +122,7 @@
       <h3>Hotels</h3>
       <p class="w3-opacity">Lodging</p>
       <p>{{profile.hotelDetails}}</p>
+      <!-- Redirecting to another page path (/two) + details on hover -->
       <a [title]="'Click for more hotels in Flushing'" routerLink="/two" class="w3-block w3-light-grey w3-button">More Details</a>
     </div>
   </div>
@@ -131,6 +139,7 @@
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <!-- Window alert when clicking submit button -->
       <button [title]="'Click here to send a message'" (click)="share()">
     SEND MESSAGE
   </button>

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core' ;
+
+/* Importing data from products.ts file */
 import { r1 } from '../products';
 
 @Component({
@@ -9,6 +11,7 @@ import { r1 } from '../products';
 })
 export class FlushingDetailsComponent implements OnInit {
 
+  /* Importing data from products.ts file */
   queens = r1.garden;
   @Input() garden;
 
